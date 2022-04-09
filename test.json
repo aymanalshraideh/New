@@ -1,0 +1,44 @@
+{
+    "code": 200,
+    "status": "OK",
+    "results": {
+        "datetime": [
+            {
+                "times": {
+                    "Imsak": "04:41",
+                    "Sunrise": "06:10",
+                    "Fajr": "04:51",
+                    "Dhuhr": "12:38",
+                    "Asr": "16:13",
+                    "Sunset": "19:06",
+                    "Maghrib": "19:16",
+                    "Isha": "20:20",
+                    "Midnight": "23:58"
+                },
+                "date": {
+                    "timestamp": 1649462400,
+                    "gregorian": "2022-04-09",
+                    "hijri": "1443-09-08"
+                }
+            }
+        ],
+        "location": {
+            "latitude": 31.956579208374023,
+            "longitude": 35.94569396972656,
+            "elevation": 760,
+            "city": "Amman",
+            "country": "Jordan",
+            "country_code": "JO",
+            "timezone": "Asia/Amman",
+            "local_offset": 3
+        },
+        "settings": {
+            "timeformat": "HH:mm",
+            "school": "Ithna Ashari",
+            "juristic": "Shafii",
+            "highlat": "None",
+            "fajr_angle": 18,
+            "isha_angle": 17
+        }
+    }
+}

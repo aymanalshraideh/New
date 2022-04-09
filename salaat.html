@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=League+Gothic&family=Mada:wght@700&family=Merriweather:ital,wght@0,300;0,700;1,900&family=Oswald:wght@200;300&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>Azkar</title>
+    <style>
+        body {
+            margin: 0;
+            /* background-image: url("../New/Image/1.jpg"); */
+            background-image: url("Image/26083.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100vh;
+           overflow: hidden;
+        }
+
+        
+#time{color: snow;}
+        .container {
+            display: flex;
+            flex-direction: column;
+            top: 0;
+            width: 100%;
+            height: 90vh;
+          
+             align-items: flex-end;
+        }
+        .cards{
+            width: 45%;
+            padding: 4% ;
+        }
+       
+.card {
+            /* background-color: rgba(0, 0, 0, 0.188); */
+            border-radius: 10%;
+          padding: 10%;
+            text-align: center;
+            
+            color: aliceblue;
+            
+        }
+        #logo{
+            color: goldenrod;
+            font-size: large;
+            
+            font-family: 'Tangerine', serif;
+            font-weight: bold;
+            font-size: xx-large;
+        }
+        .logo{
+            color: goldenrod;
+            font-size: large;
+            
+            font-family: 'Tangerine', serif;
+            
+            font-size: x-large;}
+            #taqwem table{
+                width: 100%;
+                border: 1px snow solid;}
+                #taqwem table tr{
+                    border: 1px solid goldenrod;
+                
+                }
+                #taqwem table tr td{
+                    padding: 5%;
+                    font-size: large;
+                    color: snow;
+                }
+                @media screen and (max-width: 479px){
+                    #time{
+                        text-align: center;
+                    }
+                    .cards{
+                        width: 100%;
+
+                    }
+                }
+                @media screen and (max-width: 768px) and (min-width: 425px){
+                    #time{
+                        text-align: center;
+                    }
+                }
+        
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" id="logo">Saddaqa</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Live <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    
+                    <li class=""><a href="">مكة المكرمة</a></li>
+                    <li class=""><a href="">المدينة المنورة</a></li>
+                </ul>
+              </li>
+              
+              <li class=""><a href="salaat.html">أوقات الصلاة</a> </li>
+              <li class=""> <a href="">الأذكار</a></li>
+              <li><a href="">About</a></li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+    <!-- <nav>
+        
+        <ul>
+            <li ><a href="" id="logo">Saddaqa</a></li>
+            <li class=""><a href="">Home</a> </li>
+            <li class=""><a href="">About</a> </li>
+            
+            <li class=""><a href="">أوقات الصلاة</a> </li>
+            <li class=""><a href="">مكة المكرمة</a></li>
+            <li class=""><a href="">المدينة المنورة</a></li>
+        </ul>
+    </nav> -->
+    <h1 id="time"></h1>
+    <div class="container">
+        
+        <div class="cards">
+            <div class="card">
+                
+                <div id="taqwem">
+         
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        
+    </footer>
+    <script src="main.js" >
+        
+    </script>
+</body>
+
+</html>
