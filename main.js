@@ -3,7 +3,7 @@ async function LoadData() {
     const response = await fetch("https://api.pray.zone/v2/times/today.json?city=amman");
     const data = await response.json();
     let salaat=data.results.datetime[0].times;
-    console.log(data.results.datetime[0].times)
+    console.log(data)
     // document.write(`<div><h1> Fajr :${salaat.Fajr}</h1>
     // <h1> Dhuhr :${salaat.Dhuhr}</h1></div>`)
     let taqwem =document.getElementById("taqwem");

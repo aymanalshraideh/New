@@ -19,11 +19,12 @@
         body {
             margin: 0;
             /* background-image: url("../New/Image/1.jpg"); */
-            background-image: url("Image/26083.jpg");
+            background-image: url("Image/18410.jpg");
             background-position: center;
-            background-repeat: no-repeat;
+            background-repeat: repeat;
             background-size: 100% 100vh;
-            overflow: hidden;
+            text-align: end;
+
         }
 
 
@@ -100,6 +101,29 @@
             margin-bottom: 0;
         }
 
+        .zekr {
+            display: flex;
+            justify-content: end;
+            border: 1px solid;
+            text-align: center;
+            padding: 1% 4%;
+            width: 100%;
+        }
+
+        h3 {
+            text-align: end;
+
+
+
+        }
+
+        #azkar {
+            text-align: end;
+        }
+#des{
+    color: goldenrod;
+    text-align: center;
+}
         @media screen and (max-width: 479px) {
             #time {
                 text-align: center;
@@ -158,31 +182,22 @@
             </div>
         </div>
     </nav>
-    <!-- <nav>
-        
-        <ul>
-            <li ><a href="" id="logo">Saddaqa</a></li>
-            <li class=""><a href="">Home</a> </li>
-            <li class=""><a href="">About</a> </li>
-            
-            <li class=""><a href="">أوقات الصلاة</a> </li>
-            <li class=""><a href="">مكة المكرمة</a></li>
-            <li class=""><a href="">المدينة المنورة</a></li>
-        </ul>
-    </nav> -->
-
+    
+    <button onclick="noom()">أذكار الأستيقاظ من النوم</button>
+    <button onclick="masaa()">أذكار المساء</button>
+    <button onclick="sapah()">أذكار الصباح</button>
+    <button onclick="jded()">دعاء لبس الثوب </button>
+    
+    <h1 id="des"></h1>
     <div class="container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ul37NuSys9Q" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-
-
+        <div id="azkar"></div>
     </div>
     <footer>
 
     </footer>
-    <script src="">
+    <script src="azkar.js">
+        
+       
 
     </script>
 </body>
